@@ -1,0 +1,41 @@
+.wrap-popup {
+	position: fixed;
+	left: 0;
+	/*bottom: 0;*/
+	bottom: -500px;
+	z-index: 5;
+	width: 640px;
+	color: #fff;
+	background: rgba(0,123,193, .9);
+	padding: 25px 20px;
+	transition: 1s;
+}
+.wrap-popup h2 {
+	font-size: 1.5rem;
+}
+.time {
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	z-index: 2;
+}
+.wrap-popup p {
+	font-size: 14px;
+	padding-top: 15px;
+}
+.wrap-popup .input-email {
+	border: 0;
+	height: 40px;
+	padding: 10px;
+}
+.wrap-popup button {
+	background: #f2a404;
+	color: #fff;
+	border: 0;
+	height: 40px;
+	border-radius: 2px;
+	width: 100%;
+}
+.hide-popup {
+	bottom: -500px !important;
+}

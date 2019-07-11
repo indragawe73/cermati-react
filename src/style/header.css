@@ -1,0 +1,68 @@
+.bg-main {
+	background: url(../assets/work-desk__dustin-lee.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	/*background: blue;*/
+	height: 720px;
+	position: relative;
+	
+}
+
+.bg-blue {
+	height: 720px;
+	background: rgba(0,74,117, .8);
+	position: absolute;
+	z-index: 2;
+}
+.logo {
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	width: 150px;
+	height: 150px;
+	background: url(../assets/y-logo-white.png) no-repeat center center;
+	background-size: 100px 100px;
+}
+.wrap-content-header {
+	width: 720px;
+	height: 225px;
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	color: #fff;
+	text-align: center;
+}
+.wrap-content-header h2 {
+	font-weight: 400;
+}
+.wrap-content-header h3 {
+	font-weight: bold;
+}
+.wrap-content-header p {
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.wrap-content-header button {
+	border: 1.5px solid #fff;
+	border-radius: 2px;
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	background: transparent;
+	transition: .5s;
+	font-weight: 600;
+}
+
+.wrap-content-header button:hover {
+	background: #fff;
+	color: rgba(0,74,117, .8);
+}

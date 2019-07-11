@@ -1,0 +1,34 @@
+.position-notif {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	transition: 1s;
+}
+.wrap-notif {
+	background: #f2f2f2;
+	height: 55px;
+}
+.grid-notif {
+	width: 720px;
+	margin: auto;
+	padding-top: 7px;
+}
+p {
+	font-size: 14px;
+}
+p span {
+	color: #3941A4;
+}
+
+.btn-pnl {
+	border-radius: 4px;
+	background: #0678be;
+	border: 0;
+	color: #fff;
+	padding: 8px 15px;
+}
+.hide-notif {
+	top: -155px;
+}

@@ -1,0 +1,42 @@
+.bg-gray {
+	background: #e5e5e5;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.wrap-title {
+	width: 720px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 50px;
+	color: #434343;
+}
+.wrap-list {
+	color: #434343;
+}
+.list-area {
+	border: 1px solid #c2c2c2;
+	padding: 15px;
+	padding-bottom: 20px;
+}
+.title-text {
+	font-size: 24px;
+	text-align: left;
+	color: #131b10;
+	font-weight: 500;
+	padding-bottom: 15px;
+}
+.title-text i {
+	text-align: right;
+	float: right;
+	font-size: 30px;
+	color: #a9a9a9;
+	padding-top: 7px;
+}
+.content-text {
+	font-size: 18px;
+	text-align: left;
+	/*line-height: 18px;*/
+}
+.list-area {
+	margin-bottom: 20px;
+}
